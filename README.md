@@ -20,4 +20,4 @@ This is a simple springboot crud with mysql.
   spring.datasource.password= root
  ```
   * if you want to view in mysql workbench, you can set it up like this:
-  ![image](https://user-images.githubusercontent.com/38486093/127759820-cac02725-082d-4c68-ab0d-43775eea5629.png)
+  ![alt text](https://github.com/mercadoaj/simple-springboot-crud-with-mysql/blob/main/docs/mysql-local.PNG)
