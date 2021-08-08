@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.modelmapper.convention.MatchingStrategies;
 import org.modelmapper.ModelMapper;
 import com.api.demo.entity.Person;
@@ -22,7 +23,7 @@ import com.api.demo.service.PersonService;
 @RestController 
 @RequestMapping(value = "/person",
   produces = MediaType.APPLICATION_JSON_VALUE) 
-
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PersonController implements ApiOperations{
 
     @Autowired
