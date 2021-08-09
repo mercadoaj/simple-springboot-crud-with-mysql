@@ -19,7 +19,6 @@ import com.api.demo.dto.PersonDTO;
 import com.api.demo.service.PersonService;
 
 
-
 @RestController 
 @RequestMapping(value = "/person",
   produces = MediaType.APPLICATION_JSON_VALUE) 
